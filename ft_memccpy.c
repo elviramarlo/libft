@@ -6,7 +6,7 @@
 /*   By: elvmarti <elvmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/03 20:54:23 by elvmarti          #+#    #+#             */
-/*   Updated: 2020/08/11 15:37:29 by elvmarti         ###   ########.fr       */
+/*   Updated: 2020/12/24 14:35:37 by elvmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,7 @@ void				*ft_memccpy(void *s1, const void *s2, int c, size_t n)
 		dest[i] = src[i];
 		i++;
 		if (dest[i - 1] == (unsigned char)c)
-		{
 			return (&dest[i]);
-		}
 	}
 	return (0);
 }

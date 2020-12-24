@@ -6,7 +6,7 @@
 /*   By: elvmarti <elvmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/12 11:17:19 by elvmarti          #+#    #+#             */
-/*   Updated: 2020/10/15 13:19:21 by elvmarti         ###   ########.fr       */
+/*   Updated: 2020/12/24 14:31:21 by elvmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,7 @@ static int	ft_num_str(char const *s, char c)
 	while (s[i] != '\0')
 	{
 		if ((s[i - 1] == c || i == 0) && s[i] != c)
-		{
 			num_str++;
-		}
 		i++;
 	}
 	return (num_str);

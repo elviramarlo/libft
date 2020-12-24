@@ -6,7 +6,7 @@
 /*   By: elvmarti <elvmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/08 11:02:43 by elvmarti          #+#    #+#             */
-/*   Updated: 2020/10/16 11:19:32 by elvmarti         ###   ########.fr       */
+/*   Updated: 2020/12/24 14:35:37 by elvmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ int	ft_lstsize(t_list *lst)
 
 	i = 1;
 	if (!lst)
-	{
 		return (0);
-	}
 	while (lst->next)
 	{
 		lst = lst->next;

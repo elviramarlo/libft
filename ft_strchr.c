@@ -6,7 +6,7 @@
 /*   By: elvmarti <elvmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/03 21:01:01 by elvmarti          #+#    #+#             */
-/*   Updated: 2020/08/11 13:38:23 by elvmarti         ###   ########.fr       */
+/*   Updated: 2020/12/24 14:31:22 by elvmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,7 @@ char	*ft_strchr(char *str, int c)
 	while (str[i] != c)
 	{
 		if (str[i] == '\0')
-		{
 			return (0);
-		}
 		i++;
 	}
 	return (&str[i]);
